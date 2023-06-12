@@ -1,0 +1,391 @@
+*{ margin: 0px; padding: 0px; box-sizing: content-box;} /*ver si cambiar el box sizing*/
+/**{ border: 1px solid #000;}*/
+
+
+/* Referencia a las fuentes descargadas */
+@font-face {
+    font-family: 'Romanesco';
+    src: url('../fonts/Romanesco-Regular.ttf');
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.ttf');
+}
+
+body{
+    font-family: Inter;
+}
+
+/* Configuración del estilo del header */
+header{
+    height: 70px; 
+    background: #A3A656;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav {
+    height: 70px; 
+    background: #A3A656; 
+    font-size: 16px;
+    text-transform: uppercase; 
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+nav ul li:hover{
+    color: #FFFF00;
+}
+nav ul li:nth-child(1){
+    margin-left: 70px;
+}
+.us_id{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.usuario{
+    margin-right: 10px;
+}
+#mi_cuenta{
+    margin-right: 40px;
+}
+#idioma{
+    margin-right: 10px;
+}
+.idoma_ES{
+    margin-right: 10px;
+}
+.selec_idioma{
+    margin-right: 10px;
+}
+
+/* Configuración del estilo de la sección */
+/* Logo */
+.logo_spa{
+    display: flex;
+}
+.logo_spa p{
+    position: absolute;
+    font-family: Romanesco;
+    font-size: 96px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.logo_spa h2{
+    position: absolute;
+    font-size: 32px;
+    margin-top: 300px;
+    margin-left: 200px;
+    font-style: semi-bold;
+    max-width: 550px;
+}
+/* Reserva */
+.reserva{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    background: #F2F6F6;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.reserva span{
+    margin-right: 10px;
+}
+.reserva input{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 30px;
+    border: 1px #9E9A9A;
+}
+.reserva input::placeholder{
+    color: #9E9A9A;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase; 
+}
+#reservar {
+    width: 250px;
+}
+
+/* Sección de los servicios (cards)*/
+
+/* precio y botones para reservar*/
+.reservacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.boton-reservar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    height: 25px;
+    width: 100px;
+    background-color: #A3A656;
+}
+.boton-reservar:hover{
+    background-color: #384001;
+}
+.boton-reservar a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* Cards */
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 75px;
+}
+
+/* Card pies (1)*/
+.card1{
+    margin-right: 134px;
+    margin-left: 130px;
+    width: 352px;
+    font-size: 16px;
+}
+#pies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A3A656;
+    border-radius: 15px 15px 0 0;
+    height: 75px;
+    color: #FFF;
+    font-style: semi-bold;
+    font-size: 32px;
+}
+
+/* Card relajante (2)*/
+.card2{
+    margin-right: 134px;
+    width: 352px;
+    font-size: 16px;
+}
+#relajante{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A3A656;
+    border-radius: 15px 15px 0 0;
+    height: 75px;
+    color: #FFF;
+    font-style: semi-bold;
+    font-size: 32px;
+}
+
+/* Card bambu (3)*/
+.card3{
+    margin-right: 134px;
+    width: 352px;
+    font-size: 16px;
+}
+#bambu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #A3A656;
+    border-radius: 15px 15px 0 0;
+    height: 75px;
+    color: #FFF;
+    font-style: semi-bold;
+    font-size: 32px;
+}
+
+/* Configuración socios */
+.socios{
+    height: 770px;
+    width: 100%;
+    background-color: #F2F6F6;
+    display: inline-block;
+}
+#hacer_socio{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+/*GOLD*/
+.gold{
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 250px;
+}
+.imagen-gold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    background-color: #FFF;
+}
+.boton-gold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    height: 50px;
+    width: 250px;
+    background-color: #A3A656;
+    margin-top: 25px;
+}
+.boton-gold:hover{
+    background-color: #384001;
+}
+.boton-gold a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+.beneficios-gold{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+.beneficios-gold li{
+    text-align: left;
+    margin-left: 4.5em;
+    position: relative;
+}
+/*PREMIUM*/
+.premium{
+    display: inline-block;
+    text-align: center;
+    margin-left: 134px;
+}
+.imagen-premium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    background-color: #FFF;
+}
+.boton-premium{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    height: 50px;
+    width: 250px;
+    background-color: #A3A656;
+    margin-top: 25px;
+}
+.boton-premium:hover{
+    background-color: #384001;
+}
+.boton-premium a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+.beneficios-premium{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+.beneficios-premium li{
+    text-align: left;
+    margin-left: 4.5em;
+    position: relative;
+}
+.beneficios-premium li:last-child{
+    color: #F2F6F6;
+}
+
+/*PLATE*/
+
+.plate{
+    display: inline-block;
+    text-align: center;
+    margin-left: 134px;
+}
+.imagen-plate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    border: 10px solid #384001;
+    background-color: #FFF;
+}
+.boton-plate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    height: 50px;
+    width: 250px;
+    background-color: #A3A656;
+    margin-top: 25px;
+}
+.boton-plate:hover{
+    background-color: #384001;
+}
+.boton-plate a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+.beneficios-plate{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+}
+.beneficios-plate li{
+    text-align: left;
+    margin-left: 4.5em;
+    position: relative;
+}
+.beneficios-plate li:nth-last-child(-n+2){
+    color: #F2F6F6;
+}
+
+/* Configuración footer */
+footer{
+    background-color: #384001;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #A3A656;
+    text-transform: uppercase; 
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+footer ul li:hover{
+    color: #FFFF00;
+}
+footer ul li:nth-child(1){
+    margin-left: 70px;
+}
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.redes span{
+    margin-right: 25px;
+}
+.redes img{
+    margin-right: 25px;
+}
