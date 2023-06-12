@@ -1,4 +1,4 @@
-*{ margin: 0px; padding: 0px; box-sizing: content-box;} /*ver si cambiar el box sizing*/
+*{ margin: 0px; padding: 0px; box-sizing: border-box;}
 /**{ border: 1px solid #000;}*/
 
 
@@ -69,12 +69,15 @@ nav ul li:nth-child(1){
 .logo_spa{
     display: flex;
 }
+.logo_spa img{
+    width: 100%;
+}
 .logo_spa p{
     position: absolute;
     font-family: Romanesco;
     font-size: 96px;
     margin-top: 150px;
-    margin-left: 200px;
+    margin-left: 208px;
 }
 .logo_spa h2{
     position: absolute;
@@ -127,8 +130,8 @@ nav ul li:nth-child(1){
     align-items: center;
     justify-content: center;
     border-radius: 35px;
-    height: 25px;
-    width: 100px;
+    height: 40px;
+    width: 150px;
     background-color: #A3A656;
 }
 .boton-reservar:hover{
@@ -144,15 +147,14 @@ nav ul li:nth-child(1){
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 134px;
     margin-top: 100px;
     margin-bottom: 75px;
 }
 
 /* Card pies (1)*/
 .card1{
-    margin-right: 134px;
-    margin-left: 130px;
-    width: 352px;
+    width: 350px;
     font-size: 16px;
 }
 #pies{
@@ -169,8 +171,7 @@ nav ul li:nth-child(1){
 
 /* Card relajante (2)*/
 .card2{
-    margin-right: 134px;
-    width: 352px;
+    width: 350px;
     font-size: 16px;
 }
 #relajante{
@@ -187,8 +188,7 @@ nav ul li:nth-child(1){
 
 /* Card bambu (3)*/
 .card3{
-    margin-right: 134px;
-    width: 352px;
+    width: 350px;
     font-size: 16px;
 }
 #bambu{
@@ -222,6 +222,10 @@ nav ul li:nth-child(1){
     text-align: center;
     margin-left: 250px;
 }
+.gold h2{
+    font-size: 32px;
+    margin-top: 10px;
+}
 .imagen-gold{
     display: flex;
     align-items: center;
@@ -229,7 +233,7 @@ nav ul li:nth-child(1){
     width: 233px;
     height: 233px;
     border-radius: 50%;
-    border: 10px solid #384001;
+    border: 11px solid #384001;
     background-color: #FFF;
 }
 .boton-gold{
@@ -266,6 +270,10 @@ nav ul li:nth-child(1){
     text-align: center;
     margin-left: 134px;
 }
+.premium h2{
+    font-size: 32px;
+    margin-top: 10px;
+}
 .imagen-premium{
     display: flex;
     align-items: center;
@@ -273,7 +281,7 @@ nav ul li:nth-child(1){
     width: 233px;
     height: 233px;
     border-radius: 50%;
-    border: 10px solid #384001;
+    border: 11px solid #384001;
     background-color: #FFF;
 }
 .boton-premium{
@@ -315,6 +323,10 @@ nav ul li:nth-child(1){
     text-align: center;
     margin-left: 134px;
 }
+.plate h2{
+    font-size: 32px;
+    margin-top: 10px;
+}
 .imagen-plate{
     display: flex;
     align-items: center;
@@ -322,7 +334,7 @@ nav ul li:nth-child(1){
     width: 233px;
     height: 233px;
     border-radius: 50%;
-    border: 10px solid #384001;
+    border: 11px solid #384001;
     background-color: #FFF;
 }
 .boton-plate{
