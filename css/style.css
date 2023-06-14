@@ -214,6 +214,8 @@ nav ul li:nth-child(1){
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
 }
 #hacer_socio{
     margin-top: 50px;
@@ -223,9 +225,7 @@ nav ul li:nth-child(1){
 /*GOLD*/
 .gold{
     display: inline-block;
-    margin-top: 100px;
     text-align: center;
-    margin-left: 250px;
 }
 .gold h2{
     font-size: 32px;
@@ -273,7 +273,6 @@ nav ul li:nth-child(1){
 .premium{
     display: inline-block;
     text-align: center;
-    margin-left: 134px;
 }
 .premium h2{
     font-size: 32px;
@@ -326,7 +325,6 @@ nav ul li:nth-child(1){
 .plate{
     display: inline-block;
     text-align: center;
-    margin-left: 134px;
 }
 .plate h2{
     font-size: 32px;
