@@ -133,6 +133,7 @@ nav ul li:nth-child(1){
     height: 40px;
     width: 150px;
     background-color: #A3A656;
+    text-transform: uppercase;
 }
 .boton-reservar:hover{
     background-color: #384001;
