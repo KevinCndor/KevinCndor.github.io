@@ -210,6 +210,11 @@ nav ul li:nth-child(1){
     background-color: #F2F6F6;
     display: inline-block;
 }
+.cartas_socios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 #hacer_socio{
     margin-top: 50px;
     text-align: center;
